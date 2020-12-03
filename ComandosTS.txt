@@ -1,0 +1,18 @@
+Compilador
+Por archivo:
+tsc src/hola.ts
+
+Todo los archivos: Siempre y cuando se alla creado el tsconfig
+tsc -w *.ts    tsc --watch *.ts   tsc -w
+
+Ejecutar archivos JS
+Motor de javascript que viene con nodejs
+node src/hola.js
+node dist/clase-03/app-05.js
+
+Generar archivo tsconfig, en la raiz del proyecto con: tsc --init
+Esto evita utilizar el comando tsc -w *.ts en la carpeta donde estan los archivos TS.
+Nos permite utilizar el comando tsc -w en la carpeta raiz del proyecto
+
+Una vez configurado, para compilar los archivos solo se ejecuta este comando
+tsc --watch o tsc -w
